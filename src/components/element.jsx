@@ -81,11 +81,11 @@ const element = props => {
   }
   return (
     <div className='flex flex-col align-center items-center  p-7  w-full font-sans  '>
-      <div className='border w-1/2 p-5 rounded-lg shadow-lg text-center min-h-[80vh] '>
-        <h1 className='font-bold text-2xl'>iTask-Manage Your todo at one Place</h1>
+      <div className='border w-full p-5 rounded-lg shadow-lg text-center min-h-[80vh] sm:w-1/2'>
+        <h1 className='font-bold text-lg'>iTask-Manage Your todo at one Place</h1>
         <h3 className='font-bold text-lg flex p-2'>Add a Todo</h3>
         <input className='w-[80%] border rounded-2xl p-1.5' type="text" placeholder='Enter your todos' value={value} onChange={handleChange} />
-        <button className='bg-purple-800 p-2 px-6 mx-2 rounded-3xl text-white font-semibold' onClick={handleSubmit}>Save</button>
+        <button className='bg-purple-800 p-2 px-6 mx-2 mt-2 rounded-3xl text-white font-semibold' onClick={handleSubmit}>Save</button>
 
 
         <div className='flex gap-2 m-2 p-2 '>
